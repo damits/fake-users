@@ -1,0 +1,25 @@
+{
+  "name": "users-api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
+    "express": "^4.16.2",
+    "fake-users-package": "^1.0.1",
+    "supertest": "^3.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node app"
+  },
+  "author": "Damiano Pulvirenti <uni.dmnplv@gmail.com>",
+  "license": "MIT",
+  "description": ""
+}
